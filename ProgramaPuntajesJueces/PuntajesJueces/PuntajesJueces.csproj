@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ECF5C903-94EC-48C7-BB10-D56541F345D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PuntajesJueces</RootNamespace>
+    <AssemblyName>PuntajesJueces</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gráfica\Acciones\Descalificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gráfica\Acciones\Descalificacion.Designer.cs">
+      <DependentUpon>Descalificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gráfica\Acciones\Puntuacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gráfica\Acciones\Puntuacion.Designer.cs">
+      <DependentUpon>Puntuacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gráfica\Loggin\LogginJueces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gráfica\Loggin\LogginJueces.Designer.cs">
+      <DependentUpon>LogginJueces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gráfica\Loggin\MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gráfica\Loggin\MenuPrincipal.designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Gráfica\Acciones\Descalificacion.resx">
+      <DependentUpon>Descalificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gráfica\Acciones\Puntuacion.resx">
+      <DependentUpon>Puntuacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gráfica\Loggin\LogginJueces.resx">
+      <DependentUpon>LogginJueces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gráfica\Loggin\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Fonts\Akira Jimbo.ttf" />
+    <None Include="Fonts\Call of Ops Duty.otf" />
+    <None Include="Fonts\Gobold Blocky Italic.otf" />
+    <None Include="Fonts\Gobold Blocky Regular.otf" />
+    <None Include="Fonts\IMPOS+30.ttf" />
+    <None Include="Fonts\IMPOS-30.ttf" />
+    <None Include="Fonts\IMPOS05_.ttf" />
+    <None Include="Fonts\IMPOS0__.ttf" />
+    <None Include="Fonts\IMPOS10_.ttf" />
+    <None Include="Fonts\IMPOS50_.ttf" />
+    <None Include="Fonts\IMPOSSD_.ttf" />
+    <None Include="Fonts\Knucklehead.otf" />
+    <None Include="Fonts\Nike 2002-04.ttf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lógica\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

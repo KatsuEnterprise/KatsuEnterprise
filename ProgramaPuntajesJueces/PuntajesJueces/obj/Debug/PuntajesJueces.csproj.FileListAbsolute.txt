@@ -1,0 +1,88 @@
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.AssemblyReference.cache
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Properties.Resources.resources
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.GenerateResource.cache
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.CoreCompileInputs.cache
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Puntuacion.resources
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.MenuPrincipal.resources
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe.config
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.pdb
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.exe
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.pdb
+E:\Proyecto\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.LogginJueces.resources
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe.config
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.pdb
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.AssemblyReference.cache
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Puntuacion.resources
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.LogginJueces.resources
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.MenuPrincipal.resources
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Properties.Resources.resources
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.GenerateResource.cache
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.CoreCompileInputs.cache
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.exe
+D:\fmacedo\Nueva carpeta\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.pdb
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe.config
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.pdb
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.AssemblyReference.cache
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.SuggestedBindingRedirects.cache
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Puntuacion.resources
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.LogginJueces.resources
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.MenuPrincipal.resources
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Properties.Resources.resources
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.GenerateResource.cache
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.CoreCompileInputs.cache
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.exe
+C:\Users\DeRep\Downloads\ProgramaPuntajesJueces\ProgramaPuntajesJueces\PuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.pdb
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\bin\Debug\PuntajesJueces.exe.config
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\bin\Debug\PuntajesJueces.exe
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\bin\Debug\PuntajesJueces.pdb
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.AssemblyReference.cache
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Puntuacion.resources
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.LogginJueces.resources
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.MenuPrincipal.resources
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.Properties.Resources.resources
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.GenerateResource.cache
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.CoreCompileInputs.cache
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.exe
+G:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.pdb
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\bin\Debug\PuntajesJueces.exe.config
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\bin\Debug\PuntajesJueces.exe
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\bin\Debug\PuntajesJueces.pdb
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.AssemblyReference.cache
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Descalificacion.resources
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Puntuacion.resources
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.LogginJueces.resources
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.MenuPrincipal.resources
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.Properties.Resources.resources
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.GenerateResource.cache
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.CoreCompileInputs.cache
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.exe
+E:\ProgramaPuntajesJuecesNuevo\PuntajesJueces\obj\Debug\PuntajesJueces.pdb
+F:\ProgramaPuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe.config
+F:\ProgramaPuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe
+F:\ProgramaPuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.pdb
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.AssemblyReference.cache
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Descalificacion.resources
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Puntuacion.resources
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.LogginJueces.resources
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.MenuPrincipal.resources
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Properties.Resources.resources
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.GenerateResource.cache
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.CoreCompileInputs.cache
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.exe
+F:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.pdb
+E:\ProgramaPuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe.config
+E:\ProgramaPuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.exe
+E:\ProgramaPuntajesJueces\PuntajesJueces\bin\Debug\PuntajesJueces.pdb
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.AssemblyReference.cache
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Descalificacion.resources
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Acciones.Puntuacion.resources
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.LogginJueces.resources
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Gráfica.Loggin.MenuPrincipal.resources
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.Properties.Resources.resources
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.GenerateResource.cache
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.csproj.CoreCompileInputs.cache
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.exe
+E:\ProgramaPuntajesJueces\PuntajesJueces\obj\Debug\PuntajesJueces.pdb
