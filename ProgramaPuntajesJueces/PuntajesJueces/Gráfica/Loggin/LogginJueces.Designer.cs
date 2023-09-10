@@ -64,7 +64,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.btnIngresarAlPuntaje.FlatAppearance.BorderSize = 0;
             this.btnIngresarAlPuntaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIngresarAlPuntaje.ForeColor = System.Drawing.Color.White;
-            this.btnIngresarAlPuntaje.Location = new System.Drawing.Point(667, 394);
+            this.btnIngresarAlPuntaje.Location = new System.Drawing.Point(762, 370);
             this.btnIngresarAlPuntaje.Name = "btnIngresarAlPuntaje";
             this.btnIngresarAlPuntaje.Size = new System.Drawing.Size(272, 54);
             this.btnIngresarAlPuntaje.TabIndex = 26;
@@ -75,7 +75,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             // txtContraJuez
             // 
             this.txtContraJuez.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtContraJuez.Location = new System.Drawing.Point(762, 340);
+            this.txtContraJuez.Location = new System.Drawing.Point(857, 316);
             this.txtContraJuez.Name = "txtContraJuez";
             this.txtContraJuez.Size = new System.Drawing.Size(195, 20);
             this.txtContraJuez.TabIndex = 25;
@@ -87,7 +87,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContraseña.ForeColor = System.Drawing.Color.White;
-            this.lblContraseña.Location = new System.Drawing.Point(632, 340);
+            this.lblContraseña.Location = new System.Drawing.Point(727, 316);
             this.lblContraseña.Name = "lblContraseña";
             this.lblContraseña.Size = new System.Drawing.Size(124, 16);
             this.lblContraseña.TabIndex = 22;
@@ -99,7 +99,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblJuezNumero.AutoSize = true;
             this.lblJuezNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJuezNumero.ForeColor = System.Drawing.Color.White;
-            this.lblJuezNumero.Location = new System.Drawing.Point(607, 295);
+            this.lblJuezNumero.Location = new System.Drawing.Point(702, 271);
             this.lblJuezNumero.Name = "lblJuezNumero";
             this.lblJuezNumero.Size = new System.Drawing.Size(149, 16);
             this.lblJuezNumero.TabIndex = 28;
@@ -117,10 +117,11 @@ namespace PuntajesJueces.Gráfica.Loggin
             "5",
             "6",
             "7"});
-            this.comBoxNumeroJuez.Location = new System.Drawing.Point(762, 294);
+            this.comBoxNumeroJuez.Location = new System.Drawing.Point(857, 270);
             this.comBoxNumeroJuez.Name = "comBoxNumeroJuez";
             this.comBoxNumeroJuez.Size = new System.Drawing.Size(195, 21);
             this.comBoxNumeroJuez.TabIndex = 29;
+            this.comBoxNumeroJuez.TextChanged += new System.EventHandler(this.comBoxNumeroJuez_TextChanged);
             // 
             // panel2
             // 
@@ -130,6 +131,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(10, 590);
             this.panel2.TabIndex = 75;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // PanelBarraAlta
             // 
@@ -141,7 +143,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.PanelBarraAlta.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelBarraAlta.Location = new System.Drawing.Point(0, 0);
             this.PanelBarraAlta.Name = "PanelBarraAlta";
-            this.PanelBarraAlta.Size = new System.Drawing.Size(1094, 27);
+            this.PanelBarraAlta.Size = new System.Drawing.Size(1285, 27);
             this.PanelBarraAlta.TabIndex = 76;
             this.PanelBarraAlta.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelBarraAlta_MouseDown);
             this.PanelBarraAlta.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PanelBarraAlta_MouseMove);
@@ -153,7 +155,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblTituloVentanaLogIn.AutoSize = true;
             this.lblTituloVentanaLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloVentanaLogIn.ForeColor = System.Drawing.Color.White;
-            this.lblTituloVentanaLogIn.Location = new System.Drawing.Point(499, 5);
+            this.lblTituloVentanaLogIn.Location = new System.Drawing.Point(594, 5);
             this.lblTituloVentanaLogIn.Name = "lblTituloVentanaLogIn";
             this.lblTituloVentanaLogIn.Size = new System.Drawing.Size(70, 16);
             this.lblTituloVentanaLogIn.TabIndex = 54;
@@ -162,7 +164,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             // btnMaximizarPrograma
             // 
             this.btnMaximizarPrograma.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximizarPrograma.Location = new System.Drawing.Point(994, 3);
+            this.btnMaximizarPrograma.Location = new System.Drawing.Point(1185, 3);
             this.btnMaximizarPrograma.Name = "btnMaximizarPrograma";
             this.btnMaximizarPrograma.Size = new System.Drawing.Size(43, 21);
             this.btnMaximizarPrograma.TabIndex = 51;
@@ -173,7 +175,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             // btnMinimizarPrograma
             // 
             this.btnMinimizarPrograma.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimizarPrograma.Location = new System.Drawing.Point(945, 3);
+            this.btnMinimizarPrograma.Location = new System.Drawing.Point(1136, 3);
             this.btnMinimizarPrograma.Name = "btnMinimizarPrograma";
             this.btnMinimizarPrograma.Size = new System.Drawing.Size(43, 21);
             this.btnMinimizarPrograma.TabIndex = 50;
@@ -184,7 +186,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             // btnCerrarPrograma
             // 
             this.btnCerrarPrograma.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCerrarPrograma.Location = new System.Drawing.Point(1043, 3);
+            this.btnCerrarPrograma.Location = new System.Drawing.Point(1234, 3);
             this.btnCerrarPrograma.Name = "btnCerrarPrograma";
             this.btnCerrarPrograma.Size = new System.Drawing.Size(43, 21);
             this.btnCerrarPrograma.TabIndex = 49;
@@ -198,7 +200,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblJuez.AutoSize = true;
             this.lblJuez.Font = new System.Drawing.Font("Britannic Bold", 26.25F);
             this.lblJuez.ForeColor = System.Drawing.Color.White;
-            this.lblJuez.Location = new System.Drawing.Point(771, 232);
+            this.lblJuez.Location = new System.Drawing.Point(866, 208);
             this.lblJuez.Name = "lblJuez";
             this.lblJuez.Size = new System.Drawing.Size(84, 38);
             this.lblJuez.TabIndex = 78;
@@ -210,7 +212,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblLinea2.AutoSize = true;
             this.lblLinea2.Font = new System.Drawing.Font("Berlin Sans FB", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLinea2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(81)))), ((int)(((byte)(231)))));
-            this.lblLinea2.Location = new System.Drawing.Point(349, 380);
+            this.lblLinea2.Location = new System.Drawing.Point(444, 356);
             this.lblLinea2.Name = "lblLinea2";
             this.lblLinea2.Size = new System.Drawing.Size(45, 38);
             this.lblLinea2.TabIndex = 85;
@@ -222,7 +224,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblLinea1.AutoSize = true;
             this.lblLinea1.Font = new System.Drawing.Font("Berlin Sans FB", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLinea1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(81)))), ((int)(((byte)(231)))));
-            this.lblLinea1.Location = new System.Drawing.Point(96, 380);
+            this.lblLinea1.Location = new System.Drawing.Point(191, 356);
             this.lblLinea1.Name = "lblLinea1";
             this.lblLinea1.Size = new System.Drawing.Size(45, 38);
             this.lblLinea1.TabIndex = 84;
@@ -234,7 +236,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblAnio.AutoSize = true;
             this.lblAnio.Font = new System.Drawing.Font("Berlin Sans FB", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAnio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(81)))), ((int)(((byte)(231)))));
-            this.lblAnio.Location = new System.Drawing.Point(255, 380);
+            this.lblAnio.Location = new System.Drawing.Point(350, 356);
             this.lblAnio.Name = "lblAnio";
             this.lblAnio.Size = new System.Drawing.Size(88, 38);
             this.lblAnio.TabIndex = 82;
@@ -247,7 +249,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblKata.AutoSize = true;
             this.lblKata.Font = new System.Drawing.Font("Berlin Sans FB", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKata.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(81)))), ((int)(((byte)(231)))));
-            this.lblKata.Location = new System.Drawing.Point(147, 380);
+            this.lblKata.Location = new System.Drawing.Point(242, 356);
             this.lblKata.Name = "lblKata";
             this.lblKata.Size = new System.Drawing.Size(102, 38);
             this.lblKata.TabIndex = 83;
@@ -260,7 +262,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblTituloCampeonato.AutoSize = true;
             this.lblTituloCampeonato.Font = new System.Drawing.Font("Stencil", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloCampeonato.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(27)))), ((int)(((byte)(32)))));
-            this.lblTituloCampeonato.Location = new System.Drawing.Point(59, 327);
+            this.lblTituloCampeonato.Location = new System.Drawing.Point(154, 303);
             this.lblTituloCampeonato.Name = "lblTituloCampeonato";
             this.lblTituloCampeonato.Size = new System.Drawing.Size(378, 44);
             this.lblTituloCampeonato.TabIndex = 81;
@@ -272,7 +274,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.lblCUK.AutoSize = true;
             this.lblCUK.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCUK.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblCUK.Location = new System.Drawing.Point(1, 285);
+            this.lblCUK.Location = new System.Drawing.Point(96, 261);
             this.lblCUK.Name = "lblCUK";
             this.lblCUK.Size = new System.Drawing.Size(506, 30);
             this.lblCUK.TabIndex = 80;
@@ -282,7 +284,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             // 
             this.picBoxCUK.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picBoxCUK.Image = ((System.Drawing.Image)(resources.GetObject("picBoxCUK.Image")));
-            this.picBoxCUK.Location = new System.Drawing.Point(216, 189);
+            this.picBoxCUK.Location = new System.Drawing.Point(311, 165);
             this.picBoxCUK.Name = "picBoxCUK";
             this.picBoxCUK.Size = new System.Drawing.Size(104, 93);
             this.picBoxCUK.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -295,9 +297,9 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.KatsuEnterprise);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 612);
+            this.panel1.Location = new System.Drawing.Point(0, 564);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1094, 30);
+            this.panel1.Size = new System.Drawing.Size(1285, 30);
             this.panel1.TabIndex = 86;
             // 
             // KatsuEnterprise
@@ -316,7 +318,7 @@ namespace PuntajesJueces.Gráfica.Loggin
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(1094, 642);
+            this.ClientSize = new System.Drawing.Size(1285, 594);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblLinea2);
             this.Controls.Add(this.lblLinea1);

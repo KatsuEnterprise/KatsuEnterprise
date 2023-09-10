@@ -1,0 +1,133 @@
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.AssemblyReference.cache
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.CasoEmpate.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.Competidores.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.DatosTabletsJueces.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.IngresarDatosTorneo.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.MostrarPantalla.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.PantallaDeControl.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.ValidarPuntaje.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.VerCalificados.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.LogginAdministrador.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.MenuPrincipal.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.RecibirContraseña.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaCalificados.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaPrincipal.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaRounds.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanInfoParticipantes.resources
+F:\AdminKata\AdminKata\obj\Debug\AdminKata.Properties.Resources.resources
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.GenerateResource.cache
+F:\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.CoreCompileInputs.cache
+F:\AdminKata\AdminKata\bin\Debug\AdminKata.exe.config
+F:\AdminKata\AdminKata\bin\Debug\AdminKata.exe
+F:\AdminKata\AdminKata\bin\Debug\AdminKata.pdb
+F:\AdminKata\AdminKata\obj\Debug\AdminKata.exe
+F:\AdminKata\AdminKata\obj\Debug\AdminKata.pdb
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\AdminKata.exe.config
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\AdminKata.exe
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\AdminKata.pdb
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.AssemblyReference.cache
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.CasoEmpate.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.Competidores.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.DatosTabletsJueces.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.IngresarDatosTorneo.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.MostrarPantalla.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.PantallaDeControl.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.ValidarPuntaje.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.VerCalificados.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.LogginAdministrador.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.MenuPrincipal.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.RecibirContraseña.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaCalificados.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaPrincipal.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaRounds.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanInfoParticipantes.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdminKata.Properties.Resources.resources
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.GenerateResource.cache
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.CoreCompileInputs.cache
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdminKata.exe
+G:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdminKata.pdb
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.AssemblyReference.cache
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.CasoEmpate.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.Competidores.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.DatosTabletsJueces.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.IngresarDatosTorneo.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.MostrarPantalla.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.PantallaDeControl.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.ValidarPuntaje.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.VerCalificados.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.LogginAdministrador.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.MenuPrincipal.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.RecibirContraseña.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaCalificados.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaPrincipal.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaRounds.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanInfoParticipantes.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdminKata.Properties.Resources.resources
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.GenerateResource.cache
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.CoreCompileInputs.cache
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdminKata.exe
+E:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdminKata.pdb
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.CasoEmpate.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.Competidores.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.DatosTabletsJueces.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.IngresarDatosTorneo.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.MostrarPantalla.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.PantallaDeControl.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.ValidarPuntaje.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Acciones.Técnico.VerCalificados.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.LogginAdministrador.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.MenuPrincipal.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Loggin.RecibirContraseña.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaCalificados.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaPrincipal.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanaRounds.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.Gráfica.Pantalla.VentanInfoParticipantes.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdminKata.Properties.Resources.resources
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.GenerateResource.cache
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.CoreCompileInputs.cache
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\AdminKata.exe.config
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\AdminKata.exe
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\AdminKata.pdb
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\BouncyCastle.Crypto.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Google.Protobuf.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\K4os.Compression.LZ4.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\K4os.Compression.LZ4.Streams.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\K4os.Hash.xxHash.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Microsoft.IdentityModel.Logging.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\MySql.Data.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Newtonsoft.Json.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Buffers.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.IO.Pipelines.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Memory.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Numerics.Vectors.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Twilio.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\ZstdSharp.dll
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\BouncyCastle.Crypto.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Google.Protobuf.pdb
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Google.Protobuf.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\K4os.Compression.LZ4.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\K4os.Compression.LZ4.Streams.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\K4os.Hash.xxHash.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\MySql.Data.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Newtonsoft.Json.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Buffers.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.IO.Pipelines.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Memory.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Numerics.Vectors.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\bin\Debug\Twilio.xml
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdministradorKata.csproj.CopyComplete
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdminKata.exe
+F:\Torneo Karate - KatsuEnterprise - 2023\AdminKata\AdminKata\obj\Debug\AdminKata.pdb

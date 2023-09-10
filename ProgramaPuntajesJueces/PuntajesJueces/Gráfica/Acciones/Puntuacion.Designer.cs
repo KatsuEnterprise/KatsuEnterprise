@@ -181,7 +181,7 @@ namespace PuntajesJueces.Gráfica.Acciones
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(469, 13);
+            this.label3.Location = new System.Drawing.Point(489, 10);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(196, 35);
             this.label3.TabIndex = 0;

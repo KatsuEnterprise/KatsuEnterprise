@@ -22,11 +22,24 @@ namespace PuntajesJueces.Gráfica.Loggin
             InitializeComponent();
         }
 
-        /*BOTONES*/
+        
+        /*PARA QUE NO SE PUEDA INGRESAR UN NUMERO MAYOR A UN DIGITO*/
 
+        private void comBoxNumeroJuez_TextChanged(object sender, EventArgs e)
+        {
+            if (comBoxNumeroJuez.Text.Length > 1)
+            {
+                comBoxNumeroJuez.Text = comBoxNumeroJuez.Text.Substring(0, 1);
+                comBoxNumeroJuez.SelectionStart = 1;
+            }
+        }
+
+        /*BOTONES*/
         private void btnIngresarAlPuntaje_Click(object sender, EventArgs e)
         {
-          
+
+
+
             var Juez = new Dictionary<String, String>()
             {   //Key - Value
                 {"1", "soyjuezuno" },
@@ -73,7 +86,9 @@ namespace PuntajesJueces.Gráfica.Loggin
         //Botón maximizar programa
         private void btnMaximizarPrograma_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
+            if (this.WindowState == FormWindowState.Maximized)
+            { this.WindowState = FormWindowState.Normal; }
+            else this.WindowState = FormWindowState.Maximized;
         }
 
         //Botón minimizar programa
@@ -83,16 +98,25 @@ namespace PuntajesJueces.Gráfica.Loggin
         }
 
         //Para que se pueda mover la ventana
+        
         bool vai = false;
+
+        private Point posicionMouse;
+
         private void PanelBarraAlta_MouseDown(object sender, MouseEventArgs e)
         {
             vai = true;
+            posicionMouse = e.Location;
         }
 
         private void PanelBarraAlta_MouseMove(object sender, MouseEventArgs e)
         {
             if (vai == true)
-            { this.Location = Cursor.Position; }
+            {
+                Point nuevaPosicion = this.Location;
+                nuevaPosicion.Offset(e.Location.X - posicionMouse.X, e.Location.Y - posicionMouse.Y);
+                this.Location = nuevaPosicion;
+            }
         }
 
         private void PanelBarraAlta_MouseUp(object sender, MouseEventArgs e)
@@ -100,6 +124,6 @@ namespace PuntajesJueces.Gráfica.Loggin
             vai = false;
         }
 
-        
+       
     }
 }

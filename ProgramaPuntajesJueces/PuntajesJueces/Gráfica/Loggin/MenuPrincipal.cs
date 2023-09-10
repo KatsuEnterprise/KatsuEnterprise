@@ -40,13 +40,15 @@ namespace PuntajesJueces.Gráfica.Loggin
         //Botón cerrar Programa
         private void btnCerrarPrograma_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Dispose();
         }
 
         //Botón maximizar programa
         private void btnMaximizarPrograma_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
+            if (this.WindowState == FormWindowState.Maximized)
+            { this.WindowState = FormWindowState.Normal; }
+            else this.WindowState = FormWindowState.Maximized;
         }
 
         //Botón minimizar programa
@@ -57,15 +59,23 @@ namespace PuntajesJueces.Gráfica.Loggin
 
         //Para que se pueda mover la ventana
         bool vai = false;
+
+        private Point posicionMouse;
+
         private void PanelBarraAlta_MouseDown(object sender, MouseEventArgs e)
         {
             vai = true;
+            posicionMouse = e.Location;
         }
 
         private void PanelBarraAlta_MouseMove(object sender, MouseEventArgs e)
         {
             if (vai == true)
-            { this.Location = Cursor.Position; }
+            {
+                Point nuevaPosicion = this.Location;
+                nuevaPosicion.Offset(e.Location.X - posicionMouse.X, e.Location.Y - posicionMouse.Y);
+                this.Location = nuevaPosicion;
+            }
         }
 
         private void PanelBarraAlta_MouseUp(object sender, MouseEventArgs e)
