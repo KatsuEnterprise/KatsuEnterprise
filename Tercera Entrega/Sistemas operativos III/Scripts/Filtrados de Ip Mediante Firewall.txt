@@ -1,0 +1,58 @@
+
+#!/bin/bash
+# Función para mostrar el menú principal
+show_menu() {
+choice=$(zenity --list --title="Filtrar direcciones IP" --column="Acción" "Bloquear IP"
+"Permitir IP" "Listar Reglas" "Salir")
+case "$choice" in
+"Bloquear IP")
+block_ip
+;;
+"Permitir IP")
+allow_ip
+;;
+"Listar Reglas")
+list_rules
+;;
+"Salir")
+exit 0
+;;
+*)
+zenity --error --text="Opción no válida."
+show_menu
+;;
+esac
+}
+# Función para bloquear una IP
+block_ip() {
+
+I.S.B.O. 3BF 25
+
+ip_to_block=$(zenity --entry --title="Bloquear IP" --text="Introduce la dirección IP que
+deseas bloquear:")
+if [ -n "$ip_to_block" ]; then
+sudo firewall-cmd --permanent --add-rich-rule='rule source ipset='"$ip_to_block"'
+drop'
+sudo firewall-cmd --reload
+zenity --info --text="IP $ip_to_block bloqueada con éxito."
+fi
+show_menu
+}
+# Función para permitir una IP
+allow_ip() {
+ip_to_allow=$(zenity --entry --title="Permitir IP" --text="Introduce la dirección IP que deseas
+permitir:")
+if [ -n "$ip_to_allow" ]; then
+sudo firewall-cmd --permanent --add-rich-rule='rule source ipset='"$ip_to_allow"'
+accept'
+sudo firewall-cmd --reload
+zenity --info --text="IP $ip_to_allow permitida con éxito."
+fi
+show_menu
+}
+# Función para listar las reglas de firewall
+list_rules() {
+firewall-cmd --list-all
+zenity --info --text="Reglas de firewall listadas en la terminal."
+show_menu
+}

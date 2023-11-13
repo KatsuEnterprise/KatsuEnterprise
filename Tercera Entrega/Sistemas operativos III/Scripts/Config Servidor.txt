@@ -1,0 +1,23 @@
+Configuraciones de red en las terminales y el servidor
+
+# Verificar la configuración actual
+ip addr show
+
+# Editar el archivo de configuración de red para tu interfaz (por ejemplo, eth0)
+sudo nano /etc/sysconfig/network-scripts/ifcfg-eth0
+
+# Dentro del archivo, configura la dirección IP estática, la máscara de subred, la
+puerta de enlace y los servidores DNS:
+DEVICE=eth0
+BOOTPROTO=static
+ONBOOT=yes
+IPADDR=192.168.1.2
+NETMASK=255.255.255.0
+GATEWAY=192.168.1.1
+DNS1=8.8.8.8
+
+# Reiniciar el servicio de red
+sudo systemctl restart network
+
+# Verificar la nueva configuración
+ip addr show

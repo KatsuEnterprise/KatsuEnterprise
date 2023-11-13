@@ -1,0 +1,48 @@
+Script de Servicios
+
+#!/bin/bash
+
+# Función para mostrar el menú principal
+show_menu() {
+choice=$(zenity --list --title="Administrador de Servicios" --column="Servicio" "PHP"
+"MySQL" "SSH" "Salir")
+
+case "$choice" in
+"PHP")
+toggle_service "php7.0-fpm" # Cambia php7.0-fpm al nombre del servicio de
+PHP en tu sistema
+;;
+"MySQL")
+toggle_service "mysql" # Cambia mysql al nombre del servicio de MySQL en
+tu sistema
+;;
+"SSH")
+toggle_service "ssh" # Cambia ssh al nombre del servicio de SSH en tu
+sistema
+;;
+"Salir")
+exit 0
+;;
+*)
+zenity --error --text="Servicio no válido."
+show_menu
+;;
+esac
+}
+
+
+
+
+# Función para activar o desactivar un servicio
+toggle_service() {
+service_name="$1"
+if systemctl is-active --quiet "$service_name"; then
+systemctl stop "$service_name"
+zenity --info --text="Servicio $service_name desactivado con éxito."
+else
+systemctl start "$service_name"
+zenity --info --text="Servicio $service_name activado con éxito."
+fi
+show_menu
+}
+

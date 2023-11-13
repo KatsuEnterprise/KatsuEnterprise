@@ -1,0 +1,66 @@
+Script de Redes
+
+#!/bin/bash
+# Función para mostrar el menú principal
+show_menu() {
+choice=$(zenity --list --title="Administrador de Redes" --column="Acción" "Crear
+Red" "Eliminar Red" "Editar Red" "Salir")
+case "$choice" in
+"Crear Red")
+create_network
+;;
+"Eliminar Red")
+delete_network
+;;
+"Editar Red")
+edit_network
+;;
+"Salir")
+exit 0
+;;
+*)
+zenity --error --text="Opción no válida."
+show_menu
+;;
+esac
+}
+
+# Función para crear una nueva red
+create_network() {
+network_name=$(zenity --entry --title="Crear Red" --text="Introduce el nombre de
+la nueva red:")
+if [ -n "$network_name" ]; then
+sudo nmcli connection add con-name "$network_name" ifname "*" type
+ethernet
+zenity --info --text="Red '$network_name' creada con éxito."
+fi
+show_menu
+}
+
+
+
+
+
+# Función para eliminar una red existente
+delete_network() {
+network_name=$(zenity --entry --title="Eliminar Red" --text="Introduce el nombre
+de la red que deseas eliminar:")
+if [ -n "$network_name" ]; then
+sudo nmcli connection delete "$network_name"
+zenity --info --text="Red '$network_name' eliminada con éxito."
+fi
+show_menu
+}
+
+
+
+
+# Función para editar una red existente
+edit_network() {
+network_name=$(zenity --entry --title="Editar Red" --text="Introduce el nombre de
+la red que deseas editar:")
+if [ -n "$network_name" ]; then
+nmcli connection edit "$network_name"
+zenity --info --text="Editando la red '$network_name'."
+fi
+show_menu}

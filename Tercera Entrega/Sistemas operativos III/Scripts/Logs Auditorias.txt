@@ -1,0 +1,136 @@
+El código es un script de shell en Bash que realiza varias operaciones relacionadas con registros de eventos cron en un servidor CentOS. A continuación, proporcionó una descripción de lo que hace el código:
+
+1. La función `tstCant()` se define para realizar pruebas de cantidad y comparar resultados utilizando `grep` y `awk` en diferentes situaciones. Estas pruebas se realizan en líneas que contienen las palabras clave "LIST," "EDIT," "CMD," o "INFO" en los registros de cron. El resultado de cada prueba se imprime y se le permite al usuario comparar los resultados.
+
+2. Se definen variables como `ani` (para el año), `mes` (para el mes), `dia` (para el día), `hor` (para la hora), y `min` (para los minutos) utilizando comandos `date` para capturar la fecha y hora actual.
+
+3. El script permite controlar si se ejecutan las pruebas de cantidad a través de la variable `testCantidad`.
+
+4. Finalmente, el código invoca el script en `awk` llamado `cp1.awk` y pasa la variable `ani` como un valor utilizando el comando `awk`.
+
+El código también contiene comentarios que proporcionan información adicional sobre las acciones que se están realizando y las pruebas que se llevan a cabo.
+
+En general, el código es una herramienta para analizar registros de eventos cron y realizar pruebas en ellos.
+
+tstCant()
+{
+echo grep LIST
+sudo cat /var/log/cron* | grep LIST
+echo -n "cantidad : " 
+sudo cat /var/log/cron* | grep LIST | wc -l
+echo awk
+sudo cat /var/log/cron* | awk '$7=="LIST"'
+echo -n "cantidad : " 
+sudo cat /var/log/cron* | awk '$7=="LIST"' | wc -l
+read -p 'Compare LIST ...'
+
+echo grep EDIT
+sudo cat /var/log/cron* | grep EDIT
+echo -n "cantidad : " 
+sudo cat /var/log/cron* | grep EDIT | wc -l
+echo awk
+sudo cat /var/log/cron* | awk '$8=="EDIT"'
+echo -n "cantidad : " 
+sudo cat /var/log/cron* | awk '$8=="EDIT"' | wc -l
+read -p 'Compare EDIT ...'
+
+echo grep 'LIST\|EDIT'
+sudo cat /var/log/cron* | grep 'LIST\|EDIT'
+echo -n "cantidad : " 
+sudo cat /var/log/cron* | grep 'LIST\|EDIT' | wc -l
+echo awk
+sudo cat /var/log/cron* | awk '$7=="LIST" || $8=="EDIT"'
+echo -n "cantidad : " 
+sudo cat /var/log/cron* | awk '$7=="LIST" || $8=="EDIT"' | wc -l
+read -p 'Compare suma de LIST mas EDIT ...'
+
+
+echo 'Las cuatro especies LECI (paginadas, q para salir) grep'
+sudo cat /var/log/cron* | grep 'LIST\|EDIT\|CMD\|INFO' | less
+echo -n "cantidad : " 
+sudo cat /var/log/cron* | grep 'LIST\|EDIT\|CMD\|INFO' | wc -l
+echo las cuatro especies LECI \(paginadas, q para salir\) awk
+sudo cat /var/log/cron* | awk '$7 ~ "LIST|CMD|INFO" || $8=="EDIT"' | less
+echo -n "cantidad : " 
+sudo cat /var/log/cron* | awk '$7 ~ "LIST|CMD|INFO" || $8=="EDIT"' | wc -l
+read -p 'Compare TOTALES ...'
+
+}
+
+# main (programa principal)
+#
+# Autenticación - /var/log/secure
+# Mensajes del sistema - /var/log/messages
+# Tareas cron - /var/log/cron
+# Servicio de correo - /var/log/maillog
+# Errores hardware en inicio - /var/log/dmesg
+# Información de arranque - /var/log/boot.log
+# Paquetes instalados con yum - /var/log/yum.log
+# Info sobre el motor - /var/log/mysqld.log
+# Horas en que una ip se conecto al servidor - /var/log/cups/access_log
+# Quienes estuvieron en el sistema - last -f /var/log/wtmp | more
+# Intentos de ingreso fallidos - last -f /var/log/btmp | more
+# Usuarios conectados ahora - who
+# Cuando ingreso por ultima vez un usuario - last -f /var/log/lastlog | more
+#
+
+# manejo de log de cron
+# /var/log/cron*
+# [SIGTadmin@localhost bin]$ ls -lrt /var/log/cron*
+# -rw-------. 1 root root 21981 Aug 23 18:33 /var/log/cron-20220823
+# -rw-------. 1 root root  8587 Sep  6 11:49 /var/log/cron-20220906
+# -rw-------. 1 root root  6977 Sep 27 12:32 /var/log/cron-20220927
+# -rw-------. 1 root root  3271 Oct 11 12:20 /var/log/cron-20221011
+# -rw-------. 1 root root  1213 Oct 11 12:40 /var/log/cron
+#
+# colocar permiso (lo hace root) :
+# SIGTadmin ALL = NOPASSWD: /bin/cat /var/log/cron*
+# puede ser mediante visudo, o echo :
+# echo 'SIGTadmin ALL = NOPASSWD: /bin/cat /var/log/cron*' >>/etc/sudoers
+#
+# Vamos a buscar estas acciones : LIST, EDIT, CMD, INFO (LECI)
+#
+
+
+# no funcionan !
+#año=1964
+#echo $año
+#a#o=1964
+#echo $a#o
+
+# esto no !
+#sudo grep LIST /var/log/cron*
+# esto si !
+#sudo cat /var/log/cron* | grep LIST
+
+ani=$(date +%Y)
+mes=$(date +%m)
+dia=$(date +%d)
+hor=$(date +%H)
+min=$(date +%M)
+#sudo cat /var/log/cron* | grep LIST >cronLIST-$ani$mes$dia$hor$min
+# [SIGTadmin@localhost bin]$ sudo cat /var/log/cron* | grep LIST
+# Oct 11 12:25:35 localhost crontab[3778]: (root) LIST (root)
+# Oct 11 12:25:55 localhost crontab[3780]: (root) LIST (SISRDadmin)
+# Aug 15 21:55:35 localhost crontab[19576]: (SISRDadmin) LIST (SISRDadmin)
+# Aug 25 21:44:30 172 crontab[3368]: (SISRDadmin) LIST (SISRDadmin)
+#
+
+testCantidad=0 # 0 es no, 1 es si
+#testCantidad=1
+if test $testCantidad -eq 1
+then
+   # invoco función
+   test Cant
+else
+   echo "control de cuenta de depuración deshabilitada"
+fi
+
+#exit
+
+# primer codigo, extraemos la fecha
+ani=$(date +%Y)
+# test de archivo individual
+#sudo cat /var/log/cron-20220817 | awk -f cp1.awk -v vani=$ani
+# total
+sudo cat /var/log/cron* | awk -f cp1.awk -v vani=$ani

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Administrador" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Apellido" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="Calificados" xml:space="preserve">
+    <value>Qualified competitors</value>
+  </data>
+  <data name="Campeonato AUK" xml:space="preserve">
+    <value>AUK championship</value>
+  </data>
+  <data name="Caso empate" xml:space="preserve">
+    <value>Tie case</value>
+  </data>
+  <data name="Categoría" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Competidores" xml:space="preserve">
+    <value>Competitors</value>
+  </data>
+  <data name="Competidores Calificados" xml:space="preserve">
+    <value>Qualified Competitors</value>
+  </data>
+  <data name="Competidores Ingresados" xml:space="preserve">
+    <value>Competitors entered</value>
+  </data>
+  <data name="Confederación Uruguaya de Karate" xml:space="preserve">
+    <value>Uruguayan Karate confederation</value>
+  </data>
+  <data name="Contraseña" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Contraseña de los Jueces" xml:space="preserve">
+    <value>Judges' password</value>
+  </data>
+  <data name="Crear Torneo" xml:space="preserve">
+    <value>Create tournament</value>
+  </data>
+  <data name="Cédula de identidad" xml:space="preserve">
+    <value>I.D.</value>
+  </data>
+  <data name="Código de torneo" xml:space="preserve">
+    <value>Tournament code</value>
+  </data>
+  <data name="Datos de Jueces" xml:space="preserve">
+    <value>Judge's data</value>
+  </data>
+  <data name="Datos de los Competidores" xml:space="preserve">
+    <value>Competitors' data</value>
+  </data>
+  <data name="Eliminar torneo" xml:space="preserve">
+    <value>Delate tournament</value>
+  </data>
+  <data name="Empate" xml:space="preserve">
+    <value>tie case</value>
+  </data>
+  <data name="Enviar puntaje a pantalla" xml:space="preserve">
+    <value>Send score to screen</value>
+  </data>
+  <data name="Escuela" xml:space="preserve">
+    <value>School</value>
+  </data>
+  <data name="Fecha" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Femenino" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Guardar Datos" xml:space="preserve">
+    <value>Save data</value>
+  </data>
+  <data name="Guardar Kata" xml:space="preserve">
+    <value>Save kata</value>
+  </data>
+  <data name="Guardar puntaje" xml:space="preserve">
+    <value>Save score</value>
+  </data>
+  <data name="Género" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Hora" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="Ingresar" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="Juez" xml:space="preserve">
+    <value>Judge</value>
+  </data>
+  <data name="Kata Competidores" xml:space="preserve">
+    <value>Competitors' Kata</value>
+  </data>
+  <data name="Lugar" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="Masculino" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Menú Principal" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="Mostrar pantalla" xml:space="preserve">
+    <value>Show on screen</value>
+  </data>
+  <data name="Nacimiento" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Número Juez" xml:space="preserve">
+    <value>Judge Numer</value>
+  </data>
+  <data name="Olvidé mi contraseña" xml:space="preserve">
+    <value>Forgot password?</value>
+  </data>
+  <data name="Pantalla Calificados" xml:space="preserve">
+    <value>Qualified screen</value>
+  </data>
+  <data name="Pantalla Participantes" xml:space="preserve">
+    <value>Participants screen</value>
+  </data>
+  <data name="Pantalla Principal" xml:space="preserve">
+    <value>Main screen</value>
+  </data>
+  <data name="Pantalla Puntajes" xml:space="preserve">
+    <value>Score screen</value>
+  </data>
+  <data name="Por favor, ingrese los datos pedidos a continuación para recibir la contraseña" xml:space="preserve">
+    <value>Please enter the information requested below to receive the password</value>
+  </data>
+  <data name="Profesor a cargo" xml:space="preserve">
+    <value>Professor in charge</value>
+  </data>
+  <data name="Puntuación de" xml:space="preserve">
+    <value>Score of</value>
+  </data>
+  <data name="Recibir contraseña" xml:space="preserve">
+    <value>Receive password</value>
+  </data>
+  <data name="Recuperar contraseña" xml:space="preserve">
+    <value>Recover password</value>
+  </data>
+  <data name="Registro de torneo" xml:space="preserve">
+    <value>Tournament registration</value>
+  </data>
+  <data name="Sociedad Médica" xml:space="preserve">
+    <value>Medical Society</value>
+  </data>
+  <data name="Sortear" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="Sortear competidores" xml:space="preserve">
+    <value>Draw Competitors</value>
+  </data>
+  <data name="Torneo" xml:space="preserve">
+    <value>tournament</value>
+  </data>
+  <data name="Torneos Existentes" xml:space="preserve">
+    <value>Existing tournaments</value>
+  </data>
+  <data name="Validación de puntajes" xml:space="preserve">
+    <value>Score validation</value>
+  </data>
+  <data name="Validar puntajes" xml:space="preserve">
+    <value>Score validation</value>
+  </data>
+  <data name="Vencimiento Carnet de Salud" xml:space="preserve">
+    <value>Health Card Expiration</value>
+  </data>
+</root>

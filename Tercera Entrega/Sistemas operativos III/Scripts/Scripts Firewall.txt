@@ -1,0 +1,62 @@
+Script de Firewall
+
+#!/bin/bash
+
+# Función para mostrar el menú principal
+show_menu() {
+choice=$(zenity --list --title="Administrador de Firewall" --column="Acción" "Activar
+Firewall" "Desactivar Firewall" "Agregar Regla" "Eliminar Regla" "Salir")
+
+case "$choice" in
+"Activar Firewall")
+sudo iptables -F # Limpia todas las reglas existentes
+sudo iptables -P INPUT DROP # Establece la política de entrada en DROP
+(denegar todo)
+sudo iptables -P FORWARD DROP # Establece la política de reenvío en
+DROP
+sudo iptables -P OUTPUT ACCEPT # Establece la política de salida en
+
+ACCEPT (permitir todo)
+zenity --info --text="Firewall activado con éxito."
+show_menu
+;;
+"Desactivar Firewall")
+sudo iptables -F # Limpia todas las reglas existentes
+sudo iptables -P INPUT ACCEPT # Establece la política de entrada en
+ACCEPT (permitir todo)
+sudo iptables -P FORWARD ACCEPT # Establece la política de reenvío en
+ACCEPT
+sudo iptables -P OUTPUT ACCEPT # Establece la política de salida en
+ACCEPT (permitir todo)
+zenity --info --text="Firewall desactivado con éxito."
+show_menu
+;;
+"Agregar Regla")
+rule=$(zenity --entry --title="Agregar Regla" --text="Introduce una regla
+iptables:")
+if [ -n "$rule" ]; then
+sudo iptables -A INPUT $rule
+zenity --info --text="Regla agregada con éxito: $rule"
+fi
+show_menu
+;;
+"Eliminar Regla")
+rule=$(zenity --entry --title="Eliminar Regla" --text="Introduce la regla iptables
+que deseas eliminar:")
+if [ -n "$rule" ]; then
+sudo iptables -D INPUT -j $rule
+zenity --info --text="Regla eliminada con éxito: $rule"
+fi
+show_menu
+;;
+"Salir")
+exit 0
+;;
+*)
+zenity --error --text="Opción no válida."
+show_menu
+;;
+esac
+}
+
+

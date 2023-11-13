@@ -1,0 +1,72 @@
+# primer versión, cp1, codigo procesador 1
+# extraemos fecha, usuario, etc
+# Datos de prueba
+# [SIGTadmin@centos bin]$ sudo cat /var/log/cron
+# Oct 11 18:40:01 centos CROND[6653]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+# Oct 11 16:58:49 centos crond[1089]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 43% if used.)
+# crontab -l
+# Oct 11 19:12:25 centos crontab[7613]: (SIGTadmin) LIST (SIGTadmin)
+# crontab -e
+# Oct 11 19:13:38 centos crontab[7656]: (SIGTadmin) BEGIN EDIT (SIGTadmin)
+# Oct 11 19:13:41 centos crontab[7656]: (SIGTadmin) END EDIT (SIGTadmin)
+# crontab -l desde root (crontab -l)
+# Oct 11 19:15:54 centos crontab[7757]: (root) LIST (root)
+# crontab -e desde root (crontab -e)
+# Oct 11 19:15:57 centos crontab[7759]: (root) BEGIN EDIT (root)
+# Oct 11 19:16:00 centos crontab[7759]: (root) END EDIT (root)
+# crontab -l desde root, pero sobre otro usuario (crontab -u SIGTadmin -l)
+# Oct 11 19:16:25 centos crontab[7761]: (root) LIST (SIGTadmin)
+# crontab -e desde root, pero sobre otro usuario (crontab -u SIGTadmin -e)
+# Oct 11 19:16:29 centos crontab[7762]: (root) BEGIN EDIT (SIGTadmin)
+# Oct 11 19:16:32 centos crontab[7762]: (root) END EDIT (SIGTadmin)
+$7 ~ "LIST|CMD|INFO" || $8=="EDIT" {
+   meses["Jan"]="01"; meses["Feb"]="02"; meses["Mar"]="03"; meses["Apr"]="04";  meses["May"]="05";  meses["Jun"]="06"
+   #meses["Jul"]=7; meses["Aug"]=8; meses["Sep"]=9; meses["Oct"]=10; meses["Nov"]=11; meses["Dec"]=12
+   # debo colocar el 0 delante de los meses menores que 10
+   meses["Jul"]="07"; meses["Aug"]="08"; meses["Sep"]="09"; meses["Oct"]="10"; meses["Nov"]="11"; meses["Dec"]="12"
+   mes=$1
+   dia=$2
+   hora=$3
+   hor=substr(hora,1,2)
+   min=substr(hora,4,2)
+   seg=substr(hora,7,2)
+
+   #print de toda la linea original
+   #print
+
+   nro=$5
+   usrOri=$6
+   oper=$7
+   if(oper=="BEGIN" || oper=="END") {
+      BE=oper
+      oper=$8
+      userFin=$9
+   } else {
+      BE=""
+      userFin=$8
+   }
+
+  
+ # imprimir ayuda depuración
+   imprDep="Si"
+   imprDep="No"
+
+   if( imprDep=="Si") {
+      print "=================="
+      print "imprDep = " imprDep
+      print "mes : " mes, meses[mes]
+      print "dia : " dia
+      print "año : " vani
+      print "linea original = " $0
+      print "fecha = " vani meses[mes] dia
+      print "hora = " hor min seg
+   } else
+      if(yaImpreso!=1) {
+         print "imprimir Depuración = " imprDep; yaImpreso=1
+      }
+
+   print vani meses[mes] dia hor min seg "|" nro "|" usrOri "|" BE "|" oper "|" userFin
+
+}
+
+

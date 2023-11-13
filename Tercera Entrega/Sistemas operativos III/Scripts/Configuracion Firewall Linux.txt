@@ -1,0 +1,22 @@
+
+# Verificar el estado del firewall
+sudo firewall-cmd --state
+
+# Habilitar el firewall (si no está activo)
+sudo systemctl start firewalld
+sudo systemctl enable firewalld
+
+# Verificar las zonas de red activas
+sudo firewall-cmd --get-active-zones
+
+# Configurar reglas de firewall (ejemplo para SSH)
+I.S.B.O. 3BF 24
+
+sudo firewall-cmd --zone=public --add-service=ssh --permanent
+
+# Recargar el firewall para aplicar cambios
+sudo firewall-cmd --reload
+
+# Verificar reglas configuradas para una zona específica (ejemplo para la zona
+public)
+sudo firewall-cmd --zone=public --list-all

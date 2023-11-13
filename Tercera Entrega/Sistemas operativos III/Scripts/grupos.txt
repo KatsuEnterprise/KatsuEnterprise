@@ -1,0 +1,100 @@
+#!/bin/bash
+#VARIABLES**************
+opc=10
+year=$(date +%Y-%m-%d)
+#***********************
+
+#FUNCIONES******************************************************************************************************
+function menu(){
+	clear
+	echo "MENÚ DE GESTIÓN DE USUARIOS"
+	echo "1 - Agregar grupo"
+	echo "2 - Borrar grupo"
+	echo "3 - Listar grupo del sistema"
+	echo "4 - Buscar un grupo en el sistema"
+	echo "0 - Salir"
+}
+
+function agregar_grupo(){
+    clear
+	echo "Ingrese el grupo: "
+	read grupo
+	user_group=$(echo $grupo | tr [:upper:] [:lower:])
+	existe=$(cat /etc/group | grep -c $user_group)
+	if [ $existe -eq 0 ]; then
+		groupadd $user_group
+		echo "grupo creado, presione enter para continuar"
+		read pausa
+	else
+		echo "El grupo ya existe"
+		read pausa
+		fi
+	fi
+}
+
+function borrar_grupo(){
+    clear
+	echo "Ingrese el grupo: "
+	read grupo
+	user_group=$(echo $grupo | tr [:upper:] [:lower:])
+	existe=$(cat /etc/group | grep -c $user_group)
+	if [ $existe -eq 1 ]; then
+		groupdel $user_group
+		echo "grupo borrado, presione enter para continuar"
+		read pausa
+	else
+		echo "El grupo no existe"
+		read pausa
+		fi
+	fi
+}
+
+function buscar_grupo() {
+    clear
+    echo "Ingrese el grupo: "
+	read grupo
+	user_group=$(echo $grupo | tr [:upper:] [:lower:])
+	existe=$(cat /etc/group | grep -c $user_group)
+	if [ $existe -eq 1 ]; then
+        echo "el grupo existe"
+        cat /etc/group | grep $user_group
+        echo "presione enter para continuar."
+		read pausa
+	else
+		echo "El grupo no existe"
+		read pausa
+		fi
+	fi
+
+}
+
+function listar_grupos(){
+    echo "GRUPOS DEL SISTEMA"
+    cut -d ":" -f 1 /etc/groups | sort | more
+    echo "Presione enter para volver al menú principal"
+    read pausa
+}
+#***************************************************************************************************************
+
+#MAIN***********************************************************************************************************
+while [ $opc -ne 0 ]
+do
+	clear
+	menu
+	read -p "Ingrese la opción correspondiente: " opc
+	case $opc in
+	1)
+		agregar_grupo;;
+	2)
+		borrar_grupo;;
+	3)
+		listar_grupos;;
+	4)
+		buscar_grupo;;
+	0)
+		echo "Volviendo al menú principal"; break ;; 
+	*)
+		echo "Seleccionó una opción incorrecta";;
+	esac
+done
+#***************************************************************************************************************
